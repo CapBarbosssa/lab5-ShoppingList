@@ -20,6 +20,7 @@
         
         <label for="name">Name:</label>
         <input type="text" name="name">
+        <button type="submit">Register Name</button>
     </form>
     </body>
 </html>

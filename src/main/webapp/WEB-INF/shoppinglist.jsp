@@ -13,17 +13,20 @@
     </head>
     <body>
         <h1>Shopping List</h1>
+        <p>Hello,${name} <a href="">Log out</a></p>
+        <h2>List</h2>
     <form>
         
-        <label for="item">Items:</label>
+        <label for="item">Add items:</label>
         <input type="text" name="item">
+        <button type="submit">Add</button>
     </form>
         <form>
             <p>
             <input type="radio" name="item" value="apple">Apples
             </p><!-- comment -->
             
-            <button type="submit">Save</button>
+            <button type="submit">Delete</button>
         </form>
     </body>
 </html>
